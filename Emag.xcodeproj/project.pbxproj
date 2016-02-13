@@ -1,0 +1,520 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2EA3DC7B1C6F89E900F4BD60 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA3DC7A1C6F89E900F4BD60 /* AppDelegate.swift */; };
+		2EA3DC7D1C6F89E900F4BD60 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA3DC7C1C6F89E900F4BD60 /* ViewController.swift */; };
+		2EA3DC801C6F89E900F4BD60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EA3DC7E1C6F89E900F4BD60 /* Main.storyboard */; };
+		2EA3DC831C6F89E900F4BD60 /* Emag.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2EA3DC811C6F89E900F4BD60 /* Emag.xcdatamodeld */; };
+		2EA3DC851C6F89E900F4BD60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EA3DC841C6F89E900F4BD60 /* Assets.xcassets */; };
+		2EA3DC881C6F89E900F4BD60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EA3DC861C6F89E900F4BD60 /* LaunchScreen.storyboard */; };
+		2EA3DC931C6F89EA00F4BD60 /* EmagTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA3DC921C6F89EA00F4BD60 /* EmagTests.swift */; };
+		2EA3DC9E1C6F89EA00F4BD60 /* EmagUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA3DC9D1C6F89EA00F4BD60 /* EmagUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2EA3DC8F1C6F89E900F4BD60 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2EA3DC6F1C6F89E900F4BD60 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2EA3DC761C6F89E900F4BD60;
+			remoteInfo = Emag;
+		};
+		2EA3DC9A1C6F89EA00F4BD60 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2EA3DC6F1C6F89E900F4BD60 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2EA3DC761C6F89E900F4BD60;
+			remoteInfo = Emag;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2EA3DC771C6F89E900F4BD60 /* Emag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Emag.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EA3DC7A1C6F89E900F4BD60 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2EA3DC7C1C6F89E900F4BD60 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2EA3DC7F1C6F89E900F4BD60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2EA3DC821C6F89E900F4BD60 /* Emag.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Emag.xcdatamodel; sourceTree = "<group>"; };
+		2EA3DC841C6F89E900F4BD60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2EA3DC871C6F89E900F4BD60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2EA3DC891C6F89E900F4BD60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EA3DC8E1C6F89E900F4BD60 /* EmagTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmagTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EA3DC921C6F89EA00F4BD60 /* EmagTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmagTests.swift; sourceTree = "<group>"; };
+		2EA3DC941C6F89EA00F4BD60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EA3DC991C6F89EA00F4BD60 /* EmagUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmagUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EA3DC9D1C6F89EA00F4BD60 /* EmagUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmagUITests.swift; sourceTree = "<group>"; };
+		2EA3DC9F1C6F89EA00F4BD60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2EA3DC741C6F89E900F4BD60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EA3DC8B1C6F89E900F4BD60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EA3DC961C6F89EA00F4BD60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2EA3DC6E1C6F89E900F4BD60 = {
+			isa = PBXGroup;
+			children = (
+				2EA3DC791C6F89E900F4BD60 /* Emag */,
+				2EA3DC911C6F89EA00F4BD60 /* EmagTests */,
+				2EA3DC9C1C6F89EA00F4BD60 /* EmagUITests */,
+				2EA3DC781C6F89E900F4BD60 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2EA3DC781C6F89E900F4BD60 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2EA3DC771C6F89E900F4BD60 /* Emag.app */,
+				2EA3DC8E1C6F89E900F4BD60 /* EmagTests.xctest */,
+				2EA3DC991C6F89EA00F4BD60 /* EmagUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2EA3DC791C6F89E900F4BD60 /* Emag */ = {
+			isa = PBXGroup;
+			children = (
+				2EA3DC7A1C6F89E900F4BD60 /* AppDelegate.swift */,
+				2EA3DC7C1C6F89E900F4BD60 /* ViewController.swift */,
+				2EA3DC7E1C6F89E900F4BD60 /* Main.storyboard */,
+				2EA3DC841C6F89E900F4BD60 /* Assets.xcassets */,
+				2EA3DC861C6F89E900F4BD60 /* LaunchScreen.storyboard */,
+				2EA3DC891C6F89E900F4BD60 /* Info.plist */,
+				2EA3DC811C6F89E900F4BD60 /* Emag.xcdatamodeld */,
+			);
+			path = Emag;
+			sourceTree = "<group>";
+		};
+		2EA3DC911C6F89EA00F4BD60 /* EmagTests */ = {
+			isa = PBXGroup;
+			children = (
+				2EA3DC921C6F89EA00F4BD60 /* EmagTests.swift */,
+				2EA3DC941C6F89EA00F4BD60 /* Info.plist */,
+			);
+			path = EmagTests;
+			sourceTree = "<group>";
+		};
+		2EA3DC9C1C6F89EA00F4BD60 /* EmagUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2EA3DC9D1C6F89EA00F4BD60 /* EmagUITests.swift */,
+				2EA3DC9F1C6F89EA00F4BD60 /* Info.plist */,
+			);
+			path = EmagUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2EA3DC761C6F89E900F4BD60 /* Emag */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EA3DCA21C6F89EA00F4BD60 /* Build configuration list for PBXNativeTarget "Emag" */;
+			buildPhases = (
+				2EA3DC731C6F89E900F4BD60 /* Sources */,
+				2EA3DC741C6F89E900F4BD60 /* Frameworks */,
+				2EA3DC751C6F89E900F4BD60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Emag;
+			productName = Emag;
+			productReference = 2EA3DC771C6F89E900F4BD60 /* Emag.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2EA3DC8D1C6F89E900F4BD60 /* EmagTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EA3DCA51C6F89EA00F4BD60 /* Build configuration list for PBXNativeTarget "EmagTests" */;
+			buildPhases = (
+				2EA3DC8A1C6F89E900F4BD60 /* Sources */,
+				2EA3DC8B1C6F89E900F4BD60 /* Frameworks */,
+				2EA3DC8C1C6F89E900F4BD60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2EA3DC901C6F89E900F4BD60 /* PBXTargetDependency */,
+			);
+			name = EmagTests;
+			productName = EmagTests;
+			productReference = 2EA3DC8E1C6F89E900F4BD60 /* EmagTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2EA3DC981C6F89EA00F4BD60 /* EmagUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EA3DCA81C6F89EA00F4BD60 /* Build configuration list for PBXNativeTarget "EmagUITests" */;
+			buildPhases = (
+				2EA3DC951C6F89EA00F4BD60 /* Sources */,
+				2EA3DC961C6F89EA00F4BD60 /* Frameworks */,
+				2EA3DC971C6F89EA00F4BD60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2EA3DC9B1C6F89EA00F4BD60 /* PBXTargetDependency */,
+			);
+			name = EmagUITests;
+			productName = EmagUITests;
+			productReference = 2EA3DC991C6F89EA00F4BD60 /* EmagUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2EA3DC6F1C6F89E900F4BD60 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Morgan Wilde";
+				TargetAttributes = {
+					2EA3DC761C6F89E900F4BD60 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					2EA3DC8D1C6F89E900F4BD60 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 2EA3DC761C6F89E900F4BD60;
+					};
+					2EA3DC981C6F89EA00F4BD60 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 2EA3DC761C6F89E900F4BD60;
+					};
+				};
+			};
+			buildConfigurationList = 2EA3DC721C6F89E900F4BD60 /* Build configuration list for PBXProject "Emag" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2EA3DC6E1C6F89E900F4BD60;
+			productRefGroup = 2EA3DC781C6F89E900F4BD60 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2EA3DC761C6F89E900F4BD60 /* Emag */,
+				2EA3DC8D1C6F89E900F4BD60 /* EmagTests */,
+				2EA3DC981C6F89EA00F4BD60 /* EmagUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2EA3DC751C6F89E900F4BD60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EA3DC881C6F89E900F4BD60 /* LaunchScreen.storyboard in Resources */,
+				2EA3DC851C6F89E900F4BD60 /* Assets.xcassets in Resources */,
+				2EA3DC801C6F89E900F4BD60 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EA3DC8C1C6F89E900F4BD60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EA3DC971C6F89EA00F4BD60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2EA3DC731C6F89E900F4BD60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EA3DC7D1C6F89E900F4BD60 /* ViewController.swift in Sources */,
+				2EA3DC831C6F89E900F4BD60 /* Emag.xcdatamodeld in Sources */,
+				2EA3DC7B1C6F89E900F4BD60 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EA3DC8A1C6F89E900F4BD60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EA3DC931C6F89EA00F4BD60 /* EmagTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EA3DC951C6F89EA00F4BD60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EA3DC9E1C6F89EA00F4BD60 /* EmagUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2EA3DC901C6F89E900F4BD60 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2EA3DC761C6F89E900F4BD60 /* Emag */;
+			targetProxy = 2EA3DC8F1C6F89E900F4BD60 /* PBXContainerItemProxy */;
+		};
+		2EA3DC9B1C6F89EA00F4BD60 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2EA3DC761C6F89E900F4BD60 /* Emag */;
+			targetProxy = 2EA3DC9A1C6F89EA00F4BD60 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2EA3DC7E1C6F89E900F4BD60 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2EA3DC7F1C6F89E900F4BD60 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2EA3DC861C6F89E900F4BD60 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2EA3DC871C6F89E900F4BD60 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2EA3DCA01C6F89EA00F4BD60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2EA3DCA11C6F89EA00F4BD60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2EA3DCA31C6F89EA00F4BD60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Emag/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MorganWilde.Emag;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2EA3DCA41C6F89EA00F4BD60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Emag/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MorganWilde.Emag;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2EA3DCA61C6F89EA00F4BD60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EmagTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MorganWilde.EmagTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Emag.app/Emag";
+			};
+			name = Debug;
+		};
+		2EA3DCA71C6F89EA00F4BD60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EmagTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MorganWilde.EmagTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Emag.app/Emag";
+			};
+			name = Release;
+		};
+		2EA3DCA91C6F89EA00F4BD60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EmagUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MorganWilde.EmagUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Emag;
+			};
+			name = Debug;
+		};
+		2EA3DCAA1C6F89EA00F4BD60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EmagUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MorganWilde.EmagUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Emag;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2EA3DC721C6F89E900F4BD60 /* Build configuration list for PBXProject "Emag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EA3DCA01C6F89EA00F4BD60 /* Debug */,
+				2EA3DCA11C6F89EA00F4BD60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2EA3DCA21C6F89EA00F4BD60 /* Build configuration list for PBXNativeTarget "Emag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EA3DCA31C6F89EA00F4BD60 /* Debug */,
+				2EA3DCA41C6F89EA00F4BD60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2EA3DCA51C6F89EA00F4BD60 /* Build configuration list for PBXNativeTarget "EmagTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EA3DCA61C6F89EA00F4BD60 /* Debug */,
+				2EA3DCA71C6F89EA00F4BD60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2EA3DCA81C6F89EA00F4BD60 /* Build configuration list for PBXNativeTarget "EmagUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EA3DCA91C6F89EA00F4BD60 /* Debug */,
+				2EA3DCAA1C6F89EA00F4BD60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2EA3DC811C6F89E900F4BD60 /* Emag.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2EA3DC821C6F89E900F4BD60 /* Emag.xcdatamodel */,
+			);
+			currentVersion = 2EA3DC821C6F89E900F4BD60 /* Emag.xcdatamodel */;
+			path = Emag.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2EA3DC6F1C6F89E900F4BD60 /* Project object */;
+}
