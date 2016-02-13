@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		2EA3DC7B1C6F89E900F4BD60 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA3DC7A1C6F89E900F4BD60 /* AppDelegate.swift */; };
-		2EA3DC7D1C6F89E900F4BD60 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA3DC7C1C6F89E900F4BD60 /* ViewController.swift */; };
 		2EA3DC801C6F89E900F4BD60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EA3DC7E1C6F89E900F4BD60 /* Main.storyboard */; };
 		2EA3DC831C6F89E900F4BD60 /* Emag.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2EA3DC811C6F89E900F4BD60 /* Emag.xcdatamodeld */; };
 		2EA3DC851C6F89E900F4BD60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EA3DC841C6F89E900F4BD60 /* Assets.xcassets */; };
 		2EA3DC881C6F89E900F4BD60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EA3DC861C6F89E900F4BD60 /* LaunchScreen.storyboard */; };
 		2EA3DC931C6F89EA00F4BD60 /* EmagTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA3DC921C6F89EA00F4BD60 /* EmagTests.swift */; };
 		2EA3DC9E1C6F89EA00F4BD60 /* EmagUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA3DC9D1C6F89EA00F4BD60 /* EmagUITests.swift */; };
+		2EA3DCB01C6F8B0B00F4BD60 /* SceneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA3DCAF1C6F8B0B00F4BD60 /* SceneViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +37,6 @@
 /* Begin PBXFileReference section */
 		2EA3DC771C6F89E900F4BD60 /* Emag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Emag.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EA3DC7A1C6F89E900F4BD60 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2EA3DC7C1C6F89E900F4BD60 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2EA3DC7F1C6F89E900F4BD60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2EA3DC821C6F89E900F4BD60 /* Emag.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Emag.xcdatamodel; sourceTree = "<group>"; };
 		2EA3DC841C6F89E900F4BD60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +48,7 @@
 		2EA3DC991C6F89EA00F4BD60 /* EmagUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmagUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EA3DC9D1C6F89EA00F4BD60 /* EmagUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmagUITests.swift; sourceTree = "<group>"; };
 		2EA3DC9F1C6F89EA00F4BD60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EA3DCAF1C6F8B0B00F4BD60 /* SceneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +99,12 @@
 		2EA3DC791C6F89E900F4BD60 /* Emag */ = {
 			isa = PBXGroup;
 			children = (
+				2EA3DCAE1C6F8A1000F4BD60 /* Assets */,
+				2EA3DCAB1C6F89F000F4BD60 /* Models */,
+				2EA3DCAC1C6F89F400F4BD60 /* Views */,
+				2EA3DCAD1C6F89FC00F4BD60 /* Controllers */,
 				2EA3DC7A1C6F89E900F4BD60 /* AppDelegate.swift */,
-				2EA3DC7C1C6F89E900F4BD60 /* ViewController.swift */,
-				2EA3DC7E1C6F89E900F4BD60 /* Main.storyboard */,
-				2EA3DC841C6F89E900F4BD60 /* Assets.xcassets */,
-				2EA3DC861C6F89E900F4BD60 /* LaunchScreen.storyboard */,
 				2EA3DC891C6F89E900F4BD60 /* Info.plist */,
-				2EA3DC811C6F89E900F4BD60 /* Emag.xcdatamodeld */,
 			);
 			path = Emag;
 			sourceTree = "<group>";
@@ -126,6 +125,39 @@
 				2EA3DC9F1C6F89EA00F4BD60 /* Info.plist */,
 			);
 			path = EmagUITests;
+			sourceTree = "<group>";
+		};
+		2EA3DCAB1C6F89F000F4BD60 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2EA3DC811C6F89E900F4BD60 /* Emag.xcdatamodeld */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		2EA3DCAC1C6F89F400F4BD60 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2EA3DC7E1C6F89E900F4BD60 /* Main.storyboard */,
+				2EA3DC861C6F89E900F4BD60 /* LaunchScreen.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		2EA3DCAD1C6F89FC00F4BD60 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2EA3DCAF1C6F8B0B00F4BD60 /* SceneViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		2EA3DCAE1C6F8A1000F4BD60 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				2EA3DC841C6F89E900F4BD60 /* Assets.xcassets */,
+			);
+			name = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,7 +291,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2EA3DC7D1C6F89E900F4BD60 /* ViewController.swift in Sources */,
+				2EA3DCB01C6F8B0B00F4BD60 /* SceneViewController.swift in Sources */,
 				2EA3DC831C6F89E900F4BD60 /* Emag.xcdatamodeld in Sources */,
 				2EA3DC7B1C6F89E900F4BD60 /* AppDelegate.swift in Sources */,
 			);
