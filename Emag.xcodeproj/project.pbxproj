@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E277E5A1C70F9F60098472F /* Artificial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E277E591C70F9F60098472F /* Artificial.swift */; };
+		2E277E5E1C7139810098472F /* level-1.grid in Resources */ = {isa = PBXBuildFile; fileRef = 2E277E5D1C7139810098472F /* level-1.grid */; };
+		2E3EF81B1C6FE5C300F38CF2 /* UIColor+initWithHexString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3EF81A1C6FE5C300F38CF2 /* UIColor+initWithHexString.swift */; };
+		2E77C5FE1C7156BF00C8610E /* level-2.grid in Resources */ = {isa = PBXBuildFile; fileRef = 2E77C5FD1C7156BF00C8610E /* level-2.grid */; };
 		2EA3DC7B1C6F89E900F4BD60 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA3DC7A1C6F89E900F4BD60 /* AppDelegate.swift */; };
 		2EA3DC801C6F89E900F4BD60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EA3DC7E1C6F89E900F4BD60 /* Main.storyboard */; };
 		2EA3DC831C6F89E900F4BD60 /* Emag.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2EA3DC811C6F89E900F4BD60 /* Emag.xcdatamodeld */; };
@@ -15,6 +19,9 @@
 		2EA3DC931C6F89EA00F4BD60 /* EmagTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA3DC921C6F89EA00F4BD60 /* EmagTests.swift */; };
 		2EA3DC9E1C6F89EA00F4BD60 /* EmagUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA3DC9D1C6F89EA00F4BD60 /* EmagUITests.swift */; };
 		2EA3DCB01C6F8B0B00F4BD60 /* SceneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA3DCAF1C6F8B0B00F4BD60 /* SceneViewController.swift */; };
+		2EC58EE61C705F2800379963 /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC58EE51C705F2800379963 /* Grid.swift */; };
+		2EC58EE81C705FA500379963 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC58EE71C705FA500379963 /* Cell.swift */; };
+		2EC58EEA1C70601600379963 /* level.grid in Resources */ = {isa = PBXBuildFile; fileRef = 2EC58EE91C70601600379963 /* level.grid */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +42,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2E277E591C70F9F60098472F /* Artificial.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Artificial.swift; sourceTree = "<group>"; };
+		2E277E5D1C7139810098472F /* level-1.grid */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "level-1.grid"; sourceTree = "<group>"; };
+		2E3EF81A1C6FE5C300F38CF2 /* UIColor+initWithHexString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+initWithHexString.swift"; sourceTree = "<group>"; };
+		2E77C5FD1C7156BF00C8610E /* level-2.grid */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "level-2.grid"; sourceTree = "<group>"; };
 		2EA3DC771C6F89E900F4BD60 /* Emag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Emag.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EA3DC7A1C6F89E900F4BD60 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2EA3DC7F1C6F89E900F4BD60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -49,6 +60,9 @@
 		2EA3DC9D1C6F89EA00F4BD60 /* EmagUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmagUITests.swift; sourceTree = "<group>"; };
 		2EA3DC9F1C6F89EA00F4BD60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2EA3DCAF1C6F8B0B00F4BD60 /* SceneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneViewController.swift; sourceTree = "<group>"; };
+		2EC58EE51C705F2800379963 /* Grid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
+		2EC58EE71C705FA500379963 /* Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
+		2EC58EE91C70601600379963 /* level.grid */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = level.grid; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +145,12 @@
 			isa = PBXGroup;
 			children = (
 				2EA3DC811C6F89E900F4BD60 /* Emag.xcdatamodeld */,
+				2EC58EE51C705F2800379963 /* Grid.swift */,
+				2EC58EE71C705FA500379963 /* Cell.swift */,
+				2E277E591C70F9F60098472F /* Artificial.swift */,
+				2EC58EE91C70601600379963 /* level.grid */,
+				2E277E5D1C7139810098472F /* level-1.grid */,
+				2E77C5FD1C7156BF00C8610E /* level-2.grid */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -140,6 +160,7 @@
 			children = (
 				2EA3DC7E1C6F89E900F4BD60 /* Main.storyboard */,
 				2EA3DC861C6F89E900F4BD60 /* LaunchScreen.storyboard */,
+				2E3EF81A1C6FE5C300F38CF2 /* UIColor+initWithHexString.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -228,6 +249,7 @@
 				TargetAttributes = {
 					2EA3DC761C6F89E900F4BD60 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 3XUGAGS63P;
 					};
 					2EA3DC8D1C6F89E900F4BD60 = {
 						CreatedOnToolsVersion = 7.3;
@@ -265,7 +287,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				2EA3DC881C6F89E900F4BD60 /* LaunchScreen.storyboard in Resources */,
+				2E77C5FE1C7156BF00C8610E /* level-2.grid in Resources */,
 				2EA3DC851C6F89E900F4BD60 /* Assets.xcassets in Resources */,
+				2E277E5E1C7139810098472F /* level-1.grid in Resources */,
+				2EC58EEA1C70601600379963 /* level.grid in Resources */,
 				2EA3DC801C6F89E900F4BD60 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,7 +318,11 @@
 			files = (
 				2EA3DCB01C6F8B0B00F4BD60 /* SceneViewController.swift in Sources */,
 				2EA3DC831C6F89E900F4BD60 /* Emag.xcdatamodeld in Sources */,
+				2E277E5A1C70F9F60098472F /* Artificial.swift in Sources */,
+				2E3EF81B1C6FE5C300F38CF2 /* UIColor+initWithHexString.swift in Sources */,
+				2EC58EE61C705F2800379963 /* Grid.swift in Sources */,
 				2EA3DC7B1C6F89E900F4BD60 /* AppDelegate.swift in Sources */,
+				2EC58EE81C705FA500379963 /* Cell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,10 +462,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Emag/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MorganWilde.Emag;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -444,10 +477,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Emag/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MorganWilde.Emag;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -516,6 +553,7 @@
 				2EA3DCA41C6F89EA00F4BD60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2EA3DCA51C6F89EA00F4BD60 /* Build configuration list for PBXNativeTarget "EmagTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +562,7 @@
 				2EA3DCA71C6F89EA00F4BD60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2EA3DCA81C6F89EA00F4BD60 /* Build configuration list for PBXNativeTarget "EmagUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +571,7 @@
 				2EA3DCAA1C6F89EA00F4BD60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
